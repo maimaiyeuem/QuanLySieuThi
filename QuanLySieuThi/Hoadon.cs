@@ -285,7 +285,7 @@ namespace QuanLySieuThi
 
         private void dgvThemvaohoadon_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvThemvaohoadon.DataSource is null) { }
+            if (dgvThemvaohoadon.DataSource == null) { }
             else
             {
                 cboMahang.Text = dgvThemvaohoadon.CurrentRow.Cells[0].Value.ToString();
